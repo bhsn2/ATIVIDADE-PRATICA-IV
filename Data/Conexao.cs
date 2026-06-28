@@ -5,7 +5,6 @@ namespace Estacionamento.Data
 {
     public static class Conexao
     {
-        // ALTERE a string de conexão conforme seu ambiente
         private static readonly string _connectionString =
             @"Server=(localdb)\MSSQLLocalDB;Database=Estacionamento;Integrated Security=True;";
 
